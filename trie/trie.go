@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/pellartech/minigeth/common"
+	"github.com/pellartech/minigeth/core/types"
+	"github.com/pellartech/minigeth/crypto"
+	"github.com/pellartech/minigeth/log"
+	"github.com/pellartech/minigeth/rlp"
 )
 
 var (

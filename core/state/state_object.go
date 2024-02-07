@@ -23,13 +23,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/oracle"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/pellartech/minigeth/common"
+	"github.com/pellartech/minigeth/core/types"
+	"github.com/pellartech/minigeth/crypto"
+	"github.com/pellartech/minigeth/metrics"
+	"github.com/pellartech/minigeth/oracle"
+	"github.com/pellartech/minigeth/rlp"
+	"github.com/pellartech/minigeth/trie"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

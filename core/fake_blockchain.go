@@ -4,13 +4,13 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/oracle"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/pellartech/minigeth/common"
+	"github.com/pellartech/minigeth/consensus"
+	"github.com/pellartech/minigeth/consensus/ethash"
+	"github.com/pellartech/minigeth/core/types"
+	"github.com/pellartech/minigeth/oracle"
+	"github.com/pellartech/minigeth/params"
+	"github.com/pellartech/minigeth/rlp"
 )
 
 type BlockChain struct {

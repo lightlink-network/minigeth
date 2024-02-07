@@ -22,11 +22,11 @@ import (
 	"math/big"
 	mrand "math/rand"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/pellartech/minigeth/common"
+	"github.com/pellartech/minigeth/common/math"
+	"github.com/pellartech/minigeth/core/types"
+	"github.com/pellartech/minigeth/log"
+	"github.com/pellartech/minigeth/params"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

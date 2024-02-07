@@ -9,8 +9,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/pellartech/minigeth/common"
+	"github.com/pellartech/minigeth/crypto"
 )
 
 var preimages = make(map[common.Hash][]byte)

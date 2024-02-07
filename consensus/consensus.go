@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/pellartech/minigeth/common"
+	"github.com/pellartech/minigeth/core/state"
+	"github.com/pellartech/minigeth/core/types"
+	"github.com/pellartech/minigeth/params"
+	"github.com/pellartech/minigeth/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

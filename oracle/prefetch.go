@@ -15,11 +15,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/pellartech/minigeth/common"
+	"github.com/pellartech/minigeth/common/hexutil"
+	"github.com/pellartech/minigeth/core/types"
+	"github.com/pellartech/minigeth/crypto"
+	"github.com/pellartech/minigeth/rlp"
 )
 
 type jsonreq struct {

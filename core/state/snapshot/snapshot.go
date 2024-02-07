@@ -1,6 +1,6 @@
 package snapshot
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/pellartech/minigeth/common"
 
 // entirely stubs, this is never created
 

@@ -3,10 +3,10 @@ package state
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/oracle"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/pellartech/minigeth/common"
+	"github.com/pellartech/minigeth/core/types"
+	"github.com/pellartech/minigeth/oracle"
+	"github.com/pellartech/minigeth/trie"
 )
 
 // Replacement for Geth's Database interface.

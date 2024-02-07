@@ -8,17 +8,17 @@ import (
 	"runtime/pprof"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/oracle"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/pellartech/minigeth/common"
+	"github.com/pellartech/minigeth/consensus/misc"
+	"github.com/pellartech/minigeth/core"
+	"github.com/pellartech/minigeth/core/state"
+	"github.com/pellartech/minigeth/core/types"
+	"github.com/pellartech/minigeth/core/vm"
+	"github.com/pellartech/minigeth/crypto"
+	"github.com/pellartech/minigeth/oracle"
+	"github.com/pellartech/minigeth/params"
+	"github.com/pellartech/minigeth/rlp"
+	"github.com/pellartech/minigeth/trie"
 )
 
 func check(err error) {

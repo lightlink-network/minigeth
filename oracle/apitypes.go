@@ -6,9 +6,9 @@ package oracle
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/pellartech/minigeth/common"
+	"github.com/pellartech/minigeth/common/hexutil"
+	"github.com/pellartech/minigeth/core/types"
 )
 
 // SendTxArgs represents the arguments to submit a transaction
@@ -26,7 +26,7 @@ type SendTxArgs struct {
 
 	// We accept "data" and "input" for backwards-compatibility reasons.
 	// "input" is the newer name and should be preferred by clients.
-	// Issue detail: https://github.com/ethereum/go-ethereum/issues/15628
+	// Issue detail: https://github.com/pellartech/minigeth/issues/15628
 	Data  *hexutil.Bytes `json:"data"`
 	Input *hexutil.Bytes `json:"input,omitempty"`
 

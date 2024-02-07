@@ -15,7 +15,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/ethereum/go-ethereum/crypto/btcec"
+	"github.com/pellartech/minigeth/crypto/btcec"
 )
 
 func main() {

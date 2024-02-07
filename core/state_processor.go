@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/pellartech/minigeth/common"
+	"github.com/pellartech/minigeth/consensus"
+	"github.com/pellartech/minigeth/core/state"
+	"github.com/pellartech/minigeth/core/types"
+	"github.com/pellartech/minigeth/core/vm"
+	"github.com/pellartech/minigeth/crypto"
+	"github.com/pellartech/minigeth/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

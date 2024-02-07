@@ -19,9 +19,9 @@ package vm
 import (
 	"hash"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/pellartech/minigeth/common"
+	"github.com/pellartech/minigeth/common/math"
+	"github.com/pellartech/minigeth/log"
 )
 
 // Config are the configuration options for the Interpreter
