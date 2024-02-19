@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/pellartech/minigeth/params"
+	"github.com/lightlink-network/minigeth/params"
 )
 
 func minSwapStack(n int) int {

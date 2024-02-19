@@ -19,7 +19,7 @@ package types
 import (
 	"errors"
 
-	"github.com/pellartech/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/rlp"
 )
 
 // IsLegacyStoredReceipts tries to parse the RLP-encoded blob

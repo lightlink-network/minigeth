@@ -25,9 +25,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/ethdb"
-	"github.com/pellartech/minigeth/log"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/ethdb"
+	"github.com/lightlink-network/minigeth/log"
 )
 
 var ErrCommitDisabled = errors.New("no database for committing")

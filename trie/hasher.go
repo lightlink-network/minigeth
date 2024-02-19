@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"github.com/pellartech/minigeth/crypto"
-	"github.com/pellartech/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/crypto"
+	"github.com/lightlink-network/minigeth/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

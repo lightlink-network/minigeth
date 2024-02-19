@@ -23,15 +23,15 @@ import (
 	"sort"
 	"time"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/core/state/snapshot"
-	"github.com/pellartech/minigeth/core/types"
-	"github.com/pellartech/minigeth/crypto"
-	"github.com/pellartech/minigeth/log"
-	"github.com/pellartech/minigeth/metrics"
-	"github.com/pellartech/minigeth/oracle"
-	"github.com/pellartech/minigeth/rlp"
-	"github.com/pellartech/minigeth/trie"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/core/state/snapshot"
+	"github.com/lightlink-network/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/crypto"
+	"github.com/lightlink-network/minigeth/log"
+	"github.com/lightlink-network/minigeth/metrics"
+	"github.com/lightlink-network/minigeth/oracle"
+	"github.com/lightlink-network/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/trie"
 )
 
 type revision struct {
@@ -651,7 +651,7 @@ func (s *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range s.journal.dirties {
-		// As documented [here](https://github.com/pellartech/minigeth/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/lightlink-network/minigeth/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

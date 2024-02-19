@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/common/math"
-	"github.com/pellartech/minigeth/crypto"
-	"github.com/pellartech/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/common/math"
+	"github.com/lightlink-network/minigeth/crypto"
+	"github.com/lightlink-network/minigeth/rlp"
 )
 
 var (

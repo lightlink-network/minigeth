@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
+	"github.com/lightlink-network/minigeth/common"
 )
 
 // LegacyTx is the transaction data of regular Ethereum transactions.

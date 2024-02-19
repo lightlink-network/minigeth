@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/common/math"
-	"github.com/pellartech/minigeth/params"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/common/math"
+	"github.com/lightlink-network/minigeth/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

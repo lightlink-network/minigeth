@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/pellartech/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/rlp"
 )
 
 func ExampleEncoderBuffer() {

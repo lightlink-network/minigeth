@@ -19,9 +19,9 @@ package types
 import (
 	"io"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/common/hexutil"
-	"github.com/pellartech/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/common/hexutil"
+	"github.com/lightlink-network/minigeth/rlp"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Log -field-override logMarshaling -out gen_log_json.go

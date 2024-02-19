@@ -21,7 +21,7 @@ import (
 	"sort"
 
 	"github.com/holiman/uint256"
-	"github.com/pellartech/minigeth/params"
+	"github.com/lightlink-network/minigeth/params"
 )
 
 var activators = map[int]func(*JumpTable){

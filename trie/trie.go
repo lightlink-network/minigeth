@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/core/types"
-	"github.com/pellartech/minigeth/crypto"
-	"github.com/pellartech/minigeth/log"
-	"github.com/pellartech/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/crypto"
+	"github.com/lightlink-network/minigeth/log"
+	"github.com/lightlink-network/minigeth/rlp"
 )
 
 var (

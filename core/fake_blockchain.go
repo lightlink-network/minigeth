@@ -4,13 +4,13 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/consensus"
-	"github.com/pellartech/minigeth/consensus/ethash"
-	"github.com/pellartech/minigeth/core/types"
-	"github.com/pellartech/minigeth/oracle"
-	"github.com/pellartech/minigeth/params"
-	"github.com/pellartech/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/consensus"
+	"github.com/lightlink-network/minigeth/consensus/ethash"
+	"github.com/lightlink-network/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/oracle"
+	"github.com/lightlink-network/minigeth/params"
+	"github.com/lightlink-network/minigeth/rlp"
 )
 
 type BlockChain struct {

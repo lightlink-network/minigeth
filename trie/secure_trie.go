@@ -19,10 +19,10 @@ package trie
 import (
 	"fmt"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/core/types"
-	"github.com/pellartech/minigeth/log"
-	"github.com/pellartech/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/log"
+	"github.com/lightlink-network/minigeth/rlp"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

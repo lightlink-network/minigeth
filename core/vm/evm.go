@@ -22,9 +22,9 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/crypto"
-	"github.com/pellartech/minigeth/params"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/crypto"
+	"github.com/lightlink-network/minigeth/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

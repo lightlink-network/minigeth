@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/common/math"
-	"github.com/pellartech/minigeth/crypto"
-	"github.com/pellartech/minigeth/crypto/blake2b"
-	"github.com/pellartech/minigeth/crypto/bls12381"
-	"github.com/pellartech/minigeth/crypto/bn256"
-	"github.com/pellartech/minigeth/params"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/common/math"
+	"github.com/lightlink-network/minigeth/crypto"
+	"github.com/lightlink-network/minigeth/crypto/blake2b"
+	"github.com/lightlink-network/minigeth/crypto/bls12381"
+	"github.com/lightlink-network/minigeth/crypto/bn256"
+	"github.com/lightlink-network/minigeth/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

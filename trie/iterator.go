@@ -21,8 +21,8 @@ import (
 	"container/heap"
 	"errors"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/ethdb"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/ethdb"
 )
 
 // Iterator is a key-value trie iterator that traverses a Trie.

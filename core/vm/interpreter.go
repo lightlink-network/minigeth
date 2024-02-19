@@ -19,9 +19,9 @@ package vm
 import (
 	"hash"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/common/math"
-	"github.com/pellartech/minigeth/log"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/common/math"
+	"github.com/lightlink-network/minigeth/log"
 )
 
 // Config are the configuration options for the Interpreter

@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/common/math"
-	"github.com/pellartech/minigeth/consensus"
-	"github.com/pellartech/minigeth/core/state"
-	"github.com/pellartech/minigeth/core/types"
-	"github.com/pellartech/minigeth/params"
-	"github.com/pellartech/minigeth/rpc"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/common/math"
+	"github.com/lightlink-network/minigeth/consensus"
+	"github.com/lightlink-network/minigeth/core/state"
+	"github.com/lightlink-network/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/params"
+	"github.com/lightlink-network/minigeth/rpc"
 )
 
 type Ethash struct{}

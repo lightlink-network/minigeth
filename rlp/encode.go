@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/pellartech/minigeth/rlp/internal/rlpstruct"
+	"github.com/lightlink-network/minigeth/rlp/internal/rlpstruct"
 )
 
 var (

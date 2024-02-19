@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/pellartech/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/rlp"
 )
 
 func nodeToBytes(n node) []byte {

@@ -5,7 +5,7 @@
 
 package types
 
-import "github.com/pellartech/minigeth/rlp"
+import "github.com/lightlink-network/minigeth/rlp"
 import "io"
 
 func (obj *Header) EncodeRLP(_w io.Writer) error {

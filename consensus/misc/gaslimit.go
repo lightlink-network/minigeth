@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/pellartech/minigeth/params"
+	"github.com/lightlink-network/minigeth/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

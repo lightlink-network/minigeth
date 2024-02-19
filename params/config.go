@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
+	"github.com/lightlink-network/minigeth/common"
 	"golang.org/x/crypto/sha3"
 )
 

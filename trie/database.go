@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/core/types"
-	"github.com/pellartech/minigeth/crypto"
-	"github.com/pellartech/minigeth/oracle"
-	"github.com/pellartech/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/crypto"
+	"github.com/lightlink-network/minigeth/oracle"
+	"github.com/lightlink-network/minigeth/rlp"
 )
 
 // rawNode is a simple binary blob used to differentiate between collapsed trie

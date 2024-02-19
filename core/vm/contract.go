@@ -20,7 +20,7 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/pellartech/minigeth/common"
+	"github.com/lightlink-network/minigeth/common"
 )
 
 // ContractRef is a reference to the contract's backing object
