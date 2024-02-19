@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/consensus"
-	"github.com/pellartech/minigeth/core/types"
-	"github.com/pellartech/minigeth/core/vm"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/consensus"
+	"github.com/lightlink-network/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

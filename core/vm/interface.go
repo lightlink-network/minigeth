@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

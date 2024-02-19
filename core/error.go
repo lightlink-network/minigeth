@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/pellartech/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/core/types"
 )
 
 var (

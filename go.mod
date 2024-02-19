@@ -1,4 +1,4 @@
-module github.com/pellartech/minigeth
+module github.com/lightlink-network/minigeth
 
 go 1.17
 

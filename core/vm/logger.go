@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/pellartech/minigeth/common"
+	"github.com/lightlink-network/minigeth/common"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

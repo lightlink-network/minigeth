@@ -6,9 +6,9 @@ package oracle
 import (
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/common/hexutil"
-	"github.com/pellartech/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/common/hexutil"
+	"github.com/lightlink-network/minigeth/core/types"
 )
 
 // SendTxArgs represents the arguments to submit a transaction
@@ -26,7 +26,7 @@ type SendTxArgs struct {
 
 	// We accept "data" and "input" for backwards-compatibility reasons.
 	// "input" is the newer name and should be preferred by clients.
-	// Issue detail: https://github.com/pellartech/minigeth/issues/15628
+	// Issue detail: https://github.com/lightlink-network/minigeth/issues/15628
 	Data  *hexutil.Bytes `json:"data"`
 	Input *hexutil.Bytes `json:"input,omitempty"`
 

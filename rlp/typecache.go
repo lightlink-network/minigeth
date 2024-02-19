@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/pellartech/minigeth/rlp/internal/rlpstruct"
+	"github.com/lightlink-network/minigeth/rlp/internal/rlpstruct"
 )
 
 // typeinfo is an entry in the type cache.

@@ -18,8 +18,8 @@ package vm
 
 import (
 	"github.com/holiman/uint256"
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/common/math"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/common/math"
 )
 
 // calcMemSize64 calculates the required memory size, and returns

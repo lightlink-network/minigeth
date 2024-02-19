@@ -30,9 +30,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/common/math"
-	"github.com/pellartech/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/common/math"
+	"github.com/lightlink-network/minigeth/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

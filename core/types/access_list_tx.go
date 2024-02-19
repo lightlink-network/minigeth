@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
+	"github.com/lightlink-network/minigeth/common"
 )
 
 //go:generate go run github.com/fjl/gencodec -type AccessTuple -out gen_access_tuple.go

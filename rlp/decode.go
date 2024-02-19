@@ -28,7 +28,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/pellartech/minigeth/rlp/internal/rlpstruct"
+	"github.com/lightlink-network/minigeth/rlp/internal/rlpstruct"
 )
 
 //lint:ignore ST1012 EOL is not an error.

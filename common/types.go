@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/pellartech/minigeth/common/hexutil"
+	"github.com/lightlink-network/minigeth/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -23,13 +23,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/core/types"
-	"github.com/pellartech/minigeth/crypto"
-	"github.com/pellartech/minigeth/metrics"
-	"github.com/pellartech/minigeth/oracle"
-	"github.com/pellartech/minigeth/rlp"
-	"github.com/pellartech/minigeth/trie"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/crypto"
+	"github.com/lightlink-network/minigeth/metrics"
+	"github.com/lightlink-network/minigeth/oracle"
+	"github.com/lightlink-network/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/trie"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

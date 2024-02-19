@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/common/hexutil"
-	"github.com/pellartech/minigeth/rlp"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/common/hexutil"
+	"github.com/lightlink-network/minigeth/rlp"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/pellartech/minigeth/common/hexutil"
+	"github.com/lightlink-network/minigeth/common/hexutil"
 )
 
 // FromHex returns the bytes represented by the hexadecimal string s.

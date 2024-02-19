@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/pellartech/minigeth/common"
+	"github.com/lightlink-network/minigeth/common"
 )
 
 type accessList struct {

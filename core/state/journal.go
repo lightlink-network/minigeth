@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
+	"github.com/lightlink-network/minigeth/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

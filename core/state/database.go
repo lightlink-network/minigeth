@@ -3,10 +3,10 @@ package state
 import (
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/core/types"
-	"github.com/pellartech/minigeth/oracle"
-	"github.com/pellartech/minigeth/trie"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/oracle"
+	"github.com/lightlink-network/minigeth/trie"
 )
 
 // Replacement for Geth's Database interface.

@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/core/types"
-	"github.com/pellartech/minigeth/crypto"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/crypto"
 )
 
 var preimages = make(map[common.Hash][]byte)

@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/pellartech/minigeth/crypto/btcec"
+	"github.com/lightlink-network/minigeth/crypto/btcec"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

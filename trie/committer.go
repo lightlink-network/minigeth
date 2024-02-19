@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/pellartech/minigeth/common"
+	"github.com/lightlink-network/minigeth/common"
 )
 
 // leafChanSize is the size of the leafCh. It's a pretty arbitrary number, to allow

@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/pellartech/minigeth/params"
+	"github.com/lightlink-network/minigeth/params"
 )
 
 type (

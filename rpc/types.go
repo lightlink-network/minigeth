@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/common/hexutil"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

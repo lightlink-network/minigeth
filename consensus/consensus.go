@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
-	"github.com/pellartech/minigeth/core/state"
-	"github.com/pellartech/minigeth/core/types"
-	"github.com/pellartech/minigeth/params"
-	"github.com/pellartech/minigeth/rpc"
+	"github.com/lightlink-network/minigeth/common"
+	"github.com/lightlink-network/minigeth/core/state"
+	"github.com/lightlink-network/minigeth/core/types"
+	"github.com/lightlink-network/minigeth/params"
+	"github.com/lightlink-network/minigeth/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

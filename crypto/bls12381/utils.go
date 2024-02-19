@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/pellartech/minigeth/common"
+	"github.com/lightlink-network/minigeth/common"
 )
 
 func bigFromHex(hex string) *big.Int {

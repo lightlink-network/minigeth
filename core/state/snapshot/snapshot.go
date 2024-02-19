@@ -1,6 +1,6 @@
 package snapshot
 
-import "github.com/pellartech/minigeth/common"
+import "github.com/lightlink-network/minigeth/common"
 
 // entirely stubs, this is never created
 
